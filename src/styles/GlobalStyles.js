@@ -15,17 +15,19 @@ export const GlobalStyles = createGlobalStyle`
   :root{
     --font-primary:'Inter', sans-serif;
 
-		--color-primary: #5A4AD1;
-		--color-progress: #847CC6;
-		--color-progress-background:#bdc5d6;
+		--color-primary: #664de4;
+		--color-progress-complete: #664de4;
+		--color-progress-incomplete:#ecedee;
 
-		--color-primary-text: #40434A;
-		--color-primary-text-dark: #1c2334;
-		--color-primary-text-medium: #9BA0AB;
-		--color-primary-text-light: #F4F6F9;
+		--color-primary-text: #000000;
+		--color-primary-text-dark: #5b5b5b;
+		--color-primary-text-medium: #8B97B1;
+		--color-primary-text-light: #ffffff;
 
+		--color-group-input-background:#F8F9FC;
+		--color-input-border:#eff0f2;
 
-		--color-font: rgb(0,0,0);
+		--color-font: #000000;
   }
 
 	body{
@@ -38,14 +40,25 @@ export const GlobalStyles = createGlobalStyle`
   html {
 		box-sizing: border-box;
 
+		@media only screen and (min-width: ${breakPoints.bpXLarge}) {
+				font-size: 100% !important; // 16px
+		}
+
 		@media only screen and (max-width: ${breakPoints.bpXLarge}) {
+			font-size: 87.5% !important; // 14px
+		}
+
+		@media only screen and (max-width: ${breakPoints.bpLarge}) {
+				font-size: 75% !important; // 12px
+		}
+		
+		@media only screen and (max-width: ${breakPoints.bpMedium}) {
 				font-size: 62.5% !important; // 10px
 		}
-    
 	}
 	
 	::selection {
 		background-color: var(--color-primary);
-		color: var(--color-secondary);
+		color: #ffff;
 	}
 `;
