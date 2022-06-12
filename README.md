@@ -1,4 +1,16 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f9329b41-bdb3-4009-8b2c-a63c28d7c0e1/deploy-status)](https://app.netlify.com/sites/eden-welcome/deploys)
+[![Design](https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white)](https://dribbble.com/shots/15669113-Onboarding-Exploration) [![Netlify Status](https://api.netlify.com/api/v1/badges/f9329b41-bdb3-4009-8b2c-a63c28d7c0e1/deploy-status)](https://app.netlify.com/sites/eden-welcome/deploys)
+
+✅ Responsive website build using styled components.
+
+✅ Step wise progressible onboarding form.
+
+✅ Theming included.
+
+✅ Reusable and structured components.
+
+✅ Design - [https://dribbble.com/shots/15669113-Onboarding-Exploration](https://dribbble.com/shots/15669113-Onboarding-Exploration)
+
+✅ Live Website - [https://eden-welcome.netlify.app/](https://eden-welcome.netlify.app/)
 
 # Getting Started with Create React App
 
