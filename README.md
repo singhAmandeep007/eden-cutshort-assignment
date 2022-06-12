@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f9329b41-bdb3-4009-8b2c-a63c28d7c0e1/deploy-status)](https://app.netlify.com/sites/eden-welcome/deploys)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
